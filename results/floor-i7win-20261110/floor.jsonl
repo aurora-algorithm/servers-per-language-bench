@@ -1,0 +1,8 @@
+{"variant": "go", "kind": "health", "rps": 90916.55832221927, "ok": 910316, "codes": {"200": 910316}, "server_cpu_pct": 94.2, "cpu_us_per_req": 10.57, "rss_mb": 18.2}
+{"variant": "rust", "kind": "health", "rps": 123749.3355275093, "ok": 1239202, "codes": {"200": 1239202}, "server_cpu_pct": 93.8, "cpu_us_per_req": 7.78, "rss_mb": 10.1}
+{"variant": "node", "kind": "health", "rps": 55666.43358064755, "ok": 556998, "codes": {"200": 556998}, "server_cpu_pct": 97.9, "cpu_us_per_req": 17.9, "rss_mb": 83.0}
+{"variant": "python", "kind": "health", "rps": 14127.848362525949, "ok": 141378, "codes": {"200": 141378}, "server_cpu_pct": 98.1, "cpu_us_per_req": 70.18, "rss_mb": 72.7}
+{"variant": "java", "kind": "health", "rps": 47002.113602072866, "ok": 470422, "codes": {"200": 470422}, "server_cpu_pct": 94.5, "cpu_us_per_req": 20.43, "rss_mb": 303.5}
+{"variant": "csharp", "kind": "health", "rps": 99536.46469941907, "ok": 996671, "codes": {"200": 996671}, "server_cpu_pct": 91.8, "cpu_us_per_req": 9.44, "rss_mb": 82.8}
+{"variant": "php", "kind": "health", "rps": 412.5632469644343, "ok": 4067, "codes": {"200": 4067}, "server_cpu_pct": 98.5, "cpu_us_per_req": 2447.26, "rss_mb": 223.7}
+{"variant": "ruby", "kind": "health", "rps": 1917.2392522143423, "ok": 19124, "codes": {"200": 19124}, "server_cpu_pct": 96.7, "cpu_us_per_req": 510.67, "rss_mb": 164.8}

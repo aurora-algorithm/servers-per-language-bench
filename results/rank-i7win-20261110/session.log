@@ -1,0 +1,205 @@
+16:37:23 waiting for a quiet machine (up to 4 h)
+16:37:28 machine busy {'cores_mean': 4.0, 'cores_max': 26.9}, waiting
+16:38:33 round 1 (recorded)
+16:39:01   go           warm    25,571 req/s  p99     5.22 ms  cpu   96.5%      38.0 us/req  pg  160.5%  rss    25.3 MB  non-200 0  tw 14
+16:39:06 machine busy {'cores_mean': 2.8, 'cores_max': 17.1}, waiting
+16:39:26   go           max     26,101 req/s  p99     5.28 ms  cpu   94.4%      37.2 us/req  pg  202.7%  rss    25.3 MB  non-200 0  tw 70
+16:39:34 machine busy {'cores_mean': 3.0, 'cores_max': 25.6}, waiting
+16:39:59   rust         warm    19,102 req/s  p99     4.17 ms  cpu   94.8%      50.0 us/req  pg  152.0%  rss    12.5 MB  non-200 0  tw 141
+16:40:04 machine busy {'cores_mean': 3.2, 'cores_max': 21.5}, waiting
+16:40:25   rust         max     18,985 req/s  p99     4.55 ms  cpu   92.9%      50.4 us/req  pg   35.3%  rss    12.4 MB  non-200 0  tw 203
+16:40:53   node         warm     9,450 req/s  p99    13.11 ms  cpu   97.5%     103.8 us/req  pg   78.0%  rss   114.0 MB  non-200 0  tw 234
+16:41:13   node         max      9,825 req/s  p99     9.24 ms  cpu   97.3%     101.4 us/req  pg   73.6%  rss   170.9 MB  non-200 0  tw 262
+16:41:22 machine busy {'cores_mean': 1.5, 'cores_max': 15.7}, waiting
+16:41:47   python       warm     2,627 req/s  p99    25.56 ms  cpu   98.2%     375.9 us/req  pg   56.3%  rss    71.5 MB  non-200 0  tw 258
+16:42:08   python       max      2,682 req/s  p99    25.58 ms  cpu   96.4%     369.9 us/req  pg   45.0%  rss    76.3 MB  non-200 0  tw 249
+16:42:21 machine busy {'cores_mean': 3.6, 'cores_max': 24.5}, waiting
+16:42:56   java         warm    15,210 req/s  p99    20.69 ms  cpu   97.2%      64.4 us/req  pg  112.3%  rss   319.1 MB  non-200 0  tw 5242
+16:43:17   java         max     21,627 req/s  p99     9.00 ms  cpu   95.7%      45.3 us/req  pg  153.7%  rss   317.6 MB  non-200 0  tw 9685
+16:43:25 machine busy {'cores_mean': 2.8, 'cores_max': 24.8}, waiting
+16:43:50   csharp       warm     5,720 req/s  p99    22.23 ms  cpu   97.1%     170.7 us/req  pg  110.1%  rss    84.8 MB  non-200 0  tw 9647
+16:43:55 machine busy {'cores_mean': 1.7, 'cores_max': 15.8}, waiting
+16:44:16   csharp       max     22,234 req/s  p99     6.07 ms  cpu   92.5%      42.7 us/req  pg  384.8%  rss    94.3 MB  non-200 0  tw 9636
+16:44:25 machine busy {'cores_mean': 2.3, 'cores_max': 19.2}, waiting
+16:44:50   php          warm       144 req/s  p99   709.23 ms  cpu   64.9%    4636.5 us/req  pg   23.6%  rss   223.0 MB  non-200 0  tw 9702
+16:44:55 machine busy {'cores_mean': 6.8, 'cores_max': 30.4}, waiting
+16:50:10   php          max        144 req/s  p99   641.07 ms  cpu   61.7%    4515.2 us/req  pg   29.8%  rss   224.7 MB  non-200 0  tw 2169
+16:50:22 machine busy {'cores_mean': 4.0, 'cores_max': 26.7}, waiting
+16:54:54   ruby         warm     1,441 req/s  p99    89.18 ms  cpu   98.9%     691.2 us/req  pg   20.1%  rss   161.0 MB  non-200 0  tw 1
+16:55:14   ruby         max      1,388 req/s  p99   117.54 ms  cpu   97.5%     721.0 us/req  pg   18.6%  rss   163.6 MB  non-200 0  tw 4
+16:55:43   php-tuned    warm       343 req/s  p99   221.54 ms  cpu   98.7%    2917.7 us/req  pg   13.6%  rss   222.7 MB  non-200 0  tw 6882
+16:55:48 machine busy {'cores_mean': 2.9, 'cores_max': 24.5}, waiting
+16:56:09   php-tuned    max        349 req/s  p99   221.75 ms  cpu   97.1%    2892.8 us/req  pg   10.0%  rss   223.5 MB  non-200 0  tw 12125
+16:56:09 round 2 (recorded)
+16:56:17 machine busy {'cores_mean': 3.7, 'cores_max': 25.8}, waiting
+16:56:47   rust         warm    18,934 req/s  p99     4.22 ms  cpu   96.3%      51.2 us/req  pg  154.0%  rss    12.3 MB  non-200 0  tw 12191
+16:56:52 machine busy {'cores_mean': 3.2, 'cores_max': 17.3}, waiting
+16:57:13   rust         max     18,803 req/s  p99     4.78 ms  cpu   93.5%      51.1 us/req  pg   56.5%  rss    12.5 MB  non-200 0  tw 12253
+16:57:21 machine busy {'cores_mean': 1.7, 'cores_max': 15.1}, waiting
+16:57:46   node         warm     9,455 req/s  p99    14.31 ms  cpu   97.4%     103.6 us/req  pg   76.5%  rss   114.1 MB  non-200 0  tw 5407
+16:58:07   node         max      9,927 req/s  p99     8.84 ms  cpu   96.7%     100.1 us/req  pg   76.4%  rss   169.7 MB  non-200 0  tw 770
+16:58:15 machine busy {'cores_mean': 4.1, 'cores_max': 30.7}, waiting
+16:58:45   python       warm     2,640 req/s  p99    26.01 ms  cpu   98.4%     374.6 us/req  pg   61.7%  rss    71.6 MB  non-200 0  tw 248
+16:59:05   python       max      2,660 req/s  p99    25.14 ms  cpu   96.7%     372.9 us/req  pg   58.1%  rss    76.3 MB  non-200 0  tw 245
+16:59:19 machine busy {'cores_mean': 2.8, 'cores_max': 22.5}, waiting
+16:59:44   java         warm    15,916 req/s  p99    20.17 ms  cpu   96.6%      61.2 us/req  pg  117.0%  rss   307.8 MB  non-200 0  tw 5408
+16:59:49 machine busy {'cores_mean': 2.6, 'cores_max': 18.3}, waiting
+17:00:09   java         max     21,638 req/s  p99     9.49 ms  cpu   94.3%      44.7 us/req  pg  151.0%  rss   311.4 MB  non-200 0  tw 9947
+17:00:18 machine busy {'cores_mean': 3.5, 'cores_max': 30.5}, waiting
+17:00:43   csharp       warm     5,690 req/s  p99    21.69 ms  cpu   97.0%     171.5 us/req  pg  108.5%  rss    82.5 MB  non-200 0  tw 9962
+17:00:48 machine busy {'cores_mean': 3.2, 'cores_max': 15.6}, waiting
+17:01:08   csharp       max     21,374 req/s  p99     7.61 ms  cpu   93.8%      44.9 us/req  pg  382.9%  rss    96.5 MB  non-200 0  tw 9917
+17:01:17 machine busy {'cores_mean': 3.6, 'cores_max': 25.7}, waiting
+17:01:43   php          warm       144 req/s  p99   647.27 ms  cpu   68.4%    4875.9 us/req  pg   25.1%  rss   222.9 MB  non-200 0  tw 7926
+17:01:48 machine busy {'cores_mean': 7.1, 'cores_max': 34.6}, waiting
+17:06:58   php          max        148 req/s  p99   651.27 ms  cpu   65.0%    4629.6 us/req  pg   24.2%  rss   223.6 MB  non-200 0  tw 2225
+17:07:10 machine busy {'cores_mean': 3.8, 'cores_max': 21.9}, waiting
+17:11:50   ruby         warm     1,435 req/s  p99   128.51 ms  cpu   98.5%     691.4 us/req  pg   19.8%  rss   161.1 MB  non-200 0  tw 1
+17:12:10   ruby         max      1,440 req/s  p99    88.87 ms  cpu   97.1%     692.6 us/req  pg   21.4%  rss   163.5 MB  non-200 0  tw 7
+17:12:40   php-tuned    warm       345 req/s  p99   220.63 ms  cpu   98.8%    2905.1 us/req  pg   11.5%  rss   222.6 MB  non-200 0  tw 6905
+17:12:45 machine busy {'cores_mean': 2.5, 'cores_max': 18.0}, waiting
+17:13:05   php-tuned    max        341 req/s  p99   219.35 ms  cpu   96.8%    2950.8 us/req  pg   11.5%  rss   223.6 MB  non-200 0  tw 12043
+17:13:13 machine busy {'cores_mean': 2.6, 'cores_max': 25.3}, waiting
+17:13:44   go           warm    25,354 req/s  p99     5.27 ms  cpu   96.2%      38.2 us/req  pg  116.1%  rss    25.2 MB  non-200 0  tw 12057
+17:13:49 machine busy {'cores_mean': 4.6, 'cores_max': 36.2}, waiting
+17:14:09   go           max     26,117 req/s  p99     5.27 ms  cpu   94.2%      37.1 us/req  pg  166.0%  rss    25.3 MB  non-200 0  tw 12062
+17:14:10 round 3 (recorded)
+17:14:17 machine busy {'cores_mean': 4.6, 'cores_max': 30.8}, waiting
+17:14:43   node         warm     9,518 req/s  p99    12.80 ms  cpu   97.8%     103.4 us/req  pg   78.4%  rss   113.8 MB  non-200 0  tw 5178
+17:14:48 machine busy {'cores_mean': 2.7, 'cores_max': 20.2}, waiting
+17:15:08   node         max      9,585 req/s  p99     9.63 ms  cpu   95.8%     102.5 us/req  pg   81.1%  rss   170.1 MB  non-200 0  tw 95
+17:15:16 machine busy {'cores_mean': 4.2, 'cores_max': 31.2}, waiting
+17:15:41   python       warm     2,648 req/s  p99    26.29 ms  cpu   97.8%     371.6 us/req  pg   57.7%  rss    71.8 MB  non-200 0  tw 149
+17:15:46 machine busy {'cores_mean': 3.1, 'cores_max': 26.6}, waiting
+17:16:07   python       max      2,650 req/s  p99    25.56 ms  cpu   96.9%     374.4 us/req  pg   55.5%  rss    76.5 MB  non-200 0  tw 195
+17:16:20 machine busy {'cores_mean': 2.5, 'cores_max': 21.8}, waiting
+17:16:45   java         warm    15,567 req/s  p99    17.53 ms  cpu   96.8%      62.6 us/req  pg  114.2%  rss   313.4 MB  non-200 0  tw 5305
+17:17:06   java         max     21,424 req/s  p99     9.23 ms  cpu   92.8%      44.5 us/req  pg  149.3%  rss   315.8 MB  non-200 0  tw 9800
+17:17:14 machine busy {'cores_mean': 3.4, 'cores_max': 26.9}, waiting
+17:17:44   csharp       warm     5,255 req/s  p99    26.21 ms  cpu   96.3%     184.4 us/req  pg   92.8%  rss    82.1 MB  non-200 0  tw 9713
+17:18:05   csharp       max     21,920 req/s  p99     7.63 ms  cpu   92.4%      43.3 us/req  pg  388.1%  rss    95.8 MB  non-200 0  tw 9754
+17:18:14 machine busy {'cores_mean': 4.4, 'cores_max': 31.5}, waiting
+17:18:39   php          warm       141 req/s  p99   657.18 ms  cpu   63.0%    4593.8 us/req  pg   22.5%  rss   222.9 MB  non-200 0  tw 9750
+17:18:44 machine busy {'cores_mean': 8.1, 'cores_max': 33.6}, waiting
+17:23:44 machine busy {'cores_mean': 3.8, 'cores_max': 27.8}, waiting
+17:24:04   php          max        148 req/s  p99   630.23 ms  cpu   61.8%    4390.0 us/req  pg   27.9%  rss   224.7 MB  non-200 0  tw 2230
+17:24:16 machine busy {'cores_mean': 4.8, 'cores_max': 32.9}, waiting
+17:28:51   ruby         warm     1,440 req/s  p99   142.22 ms  cpu   98.5%     688.8 us/req  pg   22.9%  rss   161.1 MB  non-200 0  tw 1
+17:29:12   ruby         max      1,441 req/s  p99    93.88 ms  cpu   97.4%     693.8 us/req  pg   19.1%  rss   163.8 MB  non-200 0  tw 3
+17:29:41   php-tuned    warm       344 req/s  p99   222.45 ms  cpu   98.6%    2906.5 us/req  pg   10.4%  rss   222.6 MB  non-200 0  tw 6903
+17:29:46 machine busy {'cores_mean': 2.4, 'cores_max': 22.5}, waiting
+17:30:06   php-tuned    max        346 req/s  p99   228.49 ms  cpu   97.6%    2929.1 us/req  pg   11.0%  rss   223.5 MB  non-200 0  tw 12103
+17:30:15 machine busy {'cores_mean': 2.1, 'cores_max': 20.1}, waiting
+17:30:40   go           warm    25,182 req/s  p99     5.29 ms  cpu   96.9%      38.8 us/req  pg  161.5%  rss    25.4 MB  non-200 0  tw 12119
+17:30:45 machine busy {'cores_mean': 4.5, 'cores_max': 31.4}, waiting
+17:31:05   go           max     25,698 req/s  p99     5.36 ms  cpu   94.9%      38.0 us/req  pg   84.3%  rss    25.3 MB  non-200 0  tw 12121
+17:31:14 machine busy {'cores_mean': 3.4, 'cores_max': 28.1}, waiting
+17:31:44   rust         warm    19,102 req/s  p99     4.17 ms  cpu   95.3%      50.3 us/req  pg  165.1%  rss    12.4 MB  non-200 0  tw 5280
+17:31:49 machine busy {'cores_mean': 4.5, 'cores_max': 27.2}, waiting
+17:32:09   rust         max     19,011 req/s  p99     4.42 ms  cpu   93.2%      50.3 us/req  pg  110.1%  rss    12.8 MB  non-200 0  tw 145
+17:32:10 round 4 (recorded)
+17:32:17 machine busy {'cores_mean': 3.6, 'cores_max': 24.9}, waiting
+17:32:43   python       warm     2,698 req/s  p99    25.37 ms  cpu   97.7%     364.6 us/req  pg   52.9%  rss    71.9 MB  non-200 0  tw 191
+17:32:48 machine busy {'cores_mean': 2.1, 'cores_max': 21.4}, waiting
+17:33:08   python       max      2,708 req/s  p99    25.24 ms  cpu   96.9%     366.8 us/req  pg   46.6%  rss    76.8 MB  non-200 0  tw 245
+17:33:21 machine busy {'cores_mean': 2.5, 'cores_max': 22.3}, waiting
+17:33:47   java         warm    15,374 req/s  p99    20.17 ms  cpu   97.3%      63.8 us/req  pg  112.6%  rss   315.1 MB  non-200 0  tw 5268
+17:34:07   java         max     21,809 req/s  p99     9.13 ms  cpu   93.7%      44.2 us/req  pg  149.8%  rss   316.6 MB  non-200 0  tw 9873
+17:34:16 machine busy {'cores_mean': 3.0, 'cores_max': 22.4}, waiting
+17:34:41   csharp       warm     5,711 req/s  p99    21.94 ms  cpu   96.5%     170.0 us/req  pg  107.1%  rss    83.7 MB  non-200 0  tw 9811
+17:34:46 machine busy {'cores_mean': 3.6, 'cores_max': 18.8}, waiting
+17:35:11   csharp       max     24,045 req/s  p99     4.80 ms  cpu   91.8%      39.2 us/req  pg  403.8%  rss    99.0 MB  non-200 0  tw 9760
+17:35:20 machine busy {'cores_mean': 3.1, 'cores_max': 27.3}, waiting
+17:35:51   php          warm       144 req/s  p99   646.22 ms  cpu   67.3%    4801.4 us/req  pg   24.4%  rss   223.1 MB  non-200 0  tw 7525
+17:35:56 machine busy {'cores_mean': 7.2, 'cores_max': 29.5}, waiting
+17:40:56 machine busy {'cores_mean': 3.9, 'cores_max': 29.9}, waiting
+17:41:26   php          max        146 req/s  p99   716.74 ms  cpu   63.2%    4554.4 us/req  pg   26.3%  rss   224.6 MB  non-200 0  tw 2199
+17:41:38 machine busy {'cores_mean': 3.7, 'cores_max': 33.2}, waiting
+17:46:23   ruby         warm     1,435 req/s  p99   152.45 ms  cpu   98.8%     693.5 us/req  pg   17.7%  rss   160.2 MB  non-200 0  tw 4
+17:46:28 machine busy {'cores_mean': 2.8, 'cores_max': 16.7}, waiting
+17:46:48   ruby         max      1,382 req/s  p99   191.89 ms  cpu   97.1%     722.7 us/req  pg   17.6%  rss   163.2 MB  non-200 0  tw 6
+17:46:57 machine busy {'cores_mean': 1.8, 'cores_max': 15.3}, waiting
+17:47:22   php-tuned    warm       343 req/s  p99   225.08 ms  cpu   98.9%    2927.1 us/req  pg   12.8%  rss   222.7 MB  non-200 0  tw 6857
+17:47:27 machine busy {'cores_mean': 2.5, 'cores_max': 21.0}, waiting
+17:47:48   php-tuned    max        345 req/s  p99   221.80 ms  cpu   97.5%    2938.3 us/req  pg   12.4%  rss   223.5 MB  non-200 0  tw 12053
+17:48:16   go           warm    21,405 req/s  p99     6.26 ms  cpu   96.6%      45.5 us/req  pg  158.5%  rss    25.2 MB  non-200 0  tw 12063
+17:48:37   go           max     25,973 req/s  p99     5.31 ms  cpu   93.4%      36.9 us/req  pg  119.3%  rss    25.3 MB  non-200 0  tw 12075
+17:48:45 machine busy {'cores_mean': 3.9, 'cores_max': 25.8}, waiting
+17:49:10   rust         warm    19,152 req/s  p99     4.16 ms  cpu   95.7%      50.4 us/req  pg  109.1%  rss    12.4 MB  non-200 0  tw 9201
+17:49:15 machine busy {'cores_mean': 4.5, 'cores_max': 28.6}, waiting
+17:49:36   rust         max     15,986 req/s  p99     5.09 ms  cpu   93.6%      60.2 us/req  pg   91.4%  rss    12.5 MB  non-200 0  tw 4187
+17:49:44 machine busy {'cores_mean': 3.6, 'cores_max': 26.0}, waiting
+17:50:09   node         warm     9,503 req/s  p99    13.07 ms  cpu   98.1%     103.8 us/req  pg   78.0%  rss   114.2 MB  non-200 0  tw 180
+17:50:14 machine busy {'cores_mean': 2.1, 'cores_max': 18.0}, waiting
+17:50:35   node         max      9,433 req/s  p99    12.94 ms  cpu   94.4%     102.7 us/req  pg   83.5%  rss   170.4 MB  non-200 0  tw 210
+17:50:35 round 5 (recorded)
+17:50:48 machine busy {'cores_mean': 3.0, 'cores_max': 21.4}, waiting
+17:51:13   java         warm    15,391 req/s  p99    17.30 ms  cpu   96.5%      63.1 us/req  pg  109.5%  rss   318.6 MB  non-200 0  tw 5297
+17:51:18 machine busy {'cores_mean': 2.4, 'cores_max': 16.4}, waiting
+17:51:38   java         max     21,446 req/s  p99     9.12 ms  cpu   95.6%      45.8 us/req  pg  149.8%  rss   317.4 MB  non-200 0  tw 9723
+17:51:47 machine busy {'cores_mean': 3.3, 'cores_max': 28.2}, waiting
+17:52:12   csharp       warm     5,286 req/s  p99    22.75 ms  cpu   97.7%     185.9 us/req  pg  100.7%  rss    83.2 MB  non-200 0  tw 9701
+17:52:17 machine busy {'cores_mean': 2.9, 'cores_max': 15.4}, waiting
+17:52:38   csharp       max     21,242 req/s  p99     7.73 ms  cpu   91.4%      44.3 us/req  pg  359.1%  rss    96.2 MB  non-200 0  tw 9723
+17:52:47 machine busy {'cores_mean': 3.9, 'cores_max': 29.5}, waiting
+17:53:12   php          warm       145 req/s  p99   625.06 ms  cpu   65.4%    4630.0 us/req  pg   24.7%  rss   222.7 MB  non-200 0  tw 7882
+17:53:17 machine busy {'cores_mean': 7.3, 'cores_max': 37.9}, waiting
+17:58:17 machine busy {'cores_mean': 4.4, 'cores_max': 29.2}, waiting
+17:58:47   php          max        146 req/s  p99   643.79 ms  cpu   62.9%    4544.0 us/req  pg   27.2%  rss   224.6 MB  non-200 0  tw 2190
+17:58:59 machine busy {'cores_mean': 3.9, 'cores_max': 31.0}, waiting
+18:03:44   ruby         warm     1,439 req/s  p99    66.29 ms  cpu   98.7%     690.4 us/req  pg   20.2%  rss   160.9 MB  non-200 0  tw 10
+18:03:49 machine busy {'cores_mean': 1.6, 'cores_max': 15.9}, waiting
+18:04:09   ruby         max      1,395 req/s  p99    78.26 ms  cpu   97.2%     715.8 us/req  pg   20.8%  rss   163.8 MB  non-200 0  tw 10
+18:04:19 machine busy {'cores_mean': 7.5, 'cores_max': 63.7}, waiting
+18:05:24   php-tuned    warm       343 req/s  p99   221.24 ms  cpu   98.4%    2912.4 us/req  pg   11.9%  rss   222.7 MB  non-200 0  tw 6868
+18:05:44   php-tuned    max        343 req/s  p99   229.14 ms  cpu   97.8%    2957.7 us/req  pg   10.5%  rss   223.4 MB  non-200 0  tw 12035
+18:06:13   go           warm    21,116 req/s  p99     6.36 ms  cpu   96.9%      46.3 us/req  pg   95.7%  rss    25.3 MB  non-200 0  tw 12039
+18:06:18 machine busy {'cores_mean': 5.0, 'cores_max': 36.2}, waiting
+18:06:43   go           max     26,112 req/s  p99     5.27 ms  cpu   93.5%      36.9 us/req  pg  170.5%  rss    25.4 MB  non-200 0  tw 12033
+18:06:51 machine busy {'cores_mean': 2.7, 'cores_max': 19.8}, waiting
+18:07:17   rust         warm    19,191 req/s  p99     4.15 ms  cpu   95.6%      50.2 us/req  pg  117.3%  rss    12.4 MB  non-200 0  tw 7588
+18:07:22 machine busy {'cores_mean': 4.4, 'cores_max': 29.5}, waiting
+18:07:42   rust         max     18,989 req/s  p99     4.60 ms  cpu   93.4%      50.6 us/req  pg   49.7%  rss    12.4 MB  non-200 0  tw 498
+18:07:50 machine busy {'cores_mean': 2.5, 'cores_max': 20.9}, waiting
+18:08:15   node         warm     9,459 req/s  p99    12.65 ms  cpu   98.5%     104.8 us/req  pg   79.7%  rss   114.0 MB  non-200 0  tw 180
+18:08:36   node         max      9,792 req/s  p99     8.96 ms  cpu   96.8%     101.5 us/req  pg   74.3%  rss   169.5 MB  non-200 0  tw 213
+18:08:44 machine busy {'cores_mean': 3.4, 'cores_max': 27.9}, waiting
+18:09:14   python       warm     2,585 req/s  p99    26.12 ms  cpu   98.9%     384.7 us/req  pg   51.7%  rss    71.6 MB  non-200 0  tw 249
+18:09:19 machine busy {'cores_mean': 1.9, 'cores_max': 23.0}, waiting
+18:09:39   python       max      2,585 req/s  p99    26.34 ms  cpu   96.1%     382.5 us/req  pg   41.4%  rss    76.2 MB  non-200 0  tw 240
+18:09:40 round plain (plain)
+18:09:48 machine busy {'cores_mean': 4.0, 'cores_max': 26.5}, waiting
+18:10:13   csharp       warm     5,564 req/s  p99    23.03 ms  cpu   97.7%     176.5 us/req  pg  103.2%  rss    85.4 MB  non-200 0  tw 183
+18:10:18 machine busy {'cores_mean': 6.3, 'cores_max': 31.0}, waiting
+18:10:38   csharp       max     22,856 req/s  p99     5.08 ms  cpu   93.0%      41.0 us/req  pg  405.2%  rss    99.2 MB  non-200 0  tw 135
+18:10:47 machine busy {'cores_mean': 3.8, 'cores_max': 26.5}, waiting
+18:11:12   php          warm       150 req/s  p99   617.19 ms  cpu   63.8%    4368.2 us/req  pg   29.4%  rss   222.9 MB  non-200 0  tw 3146
+18:11:17 machine busy {'cores_mean': 7.3, 'cores_max': 38.2}, waiting
+18:16:17 machine busy {'cores_mean': 4.6, 'cores_max': 34.0}, waiting
+18:17:17   php          max        147 req/s  p99   638.83 ms  cpu   60.5%    4244.2 us/req  pg   25.6%  rss   224.7 MB  non-200 0  tw 2216
+18:17:29 machine busy {'cores_mean': 3.9, 'cores_max': 25.8}, waiting
+18:22:24   ruby         warm     1,438 req/s  p99    80.94 ms  cpu   98.6%     690.4 us/req  pg   18.5%  rss   161.2 MB  non-200 0  tw 1
+18:22:44   ruby         max      1,400 req/s  p99   150.62 ms  cpu   98.6%     710.0 us/req  pg   18.7%  rss   163.7 MB  non-200 0  tw 1
+18:23:14   php-tuned    warm       343 req/s  p99   220.04 ms  cpu   99.2%    2933.3 us/req  pg   10.7%  rss   222.6 MB  non-200 0  tw 6869
+18:23:19 machine busy {'cores_mean': 2.2, 'cores_max': 18.3}, waiting
+18:23:39   php-tuned    max        342 req/s  p99   235.32 ms  cpu   98.6%    2939.1 us/req  pg   11.8%  rss   223.4 MB  non-200 0  tw 11992
+18:23:47 machine busy {'cores_mean': 2.0, 'cores_max': 16.1}, waiting
+18:24:12   go           warm    20,871 req/s  p99     6.42 ms  cpu   95.7%      46.3 us/req  pg  126.0%  rss    25.3 MB  non-200 0  tw 12012
+18:24:17 machine busy {'cores_mean': 4.3, 'cores_max': 28.2}, waiting
+18:24:38   go           max     25,166 req/s  p99     5.30 ms  cpu   96.8%      38.9 us/req  pg  178.5%  rss    25.4 MB  non-200 0  tw 12024
+18:24:46 machine busy {'cores_mean': 4.3, 'cores_max': 34.4}, waiting
+18:25:11   rust         warm    19,008 req/s  p99     4.23 ms  cpu   94.9%      50.3 us/req  pg  194.0%  rss    12.4 MB  non-200 0  tw 6122
+18:25:16 machine busy {'cores_mean': 4.2, 'cores_max': 24.9}, waiting
+18:25:36   rust         max     19,176 req/s  p99     4.17 ms  cpu   94.3%      49.6 us/req  pg  113.9%  rss    12.6 MB  non-200 0  tw 750
+18:25:44 machine busy {'cores_mean': 3.6, 'cores_max': 29.8}, waiting
+18:26:14   node         warm     9,384 req/s  p99    13.13 ms  cpu   98.7%     105.8 us/req  pg   79.3%  rss   113.5 MB  non-200 0  tw 184
+18:26:35   node         max      9,740 req/s  p99     8.99 ms  cpu   98.2%     101.6 us/req  pg   76.0%  rss   169.7 MB  non-200 0  tw 216
+18:26:43 machine busy {'cores_mean': 4.3, 'cores_max': 26.3}, waiting
+18:27:13   python       warm     2,744 req/s  p99    24.93 ms  cpu   97.7%     358.1 us/req  pg   57.1%  rss    72.0 MB  non-200 0  tw 191
+18:27:18 machine busy {'cores_mean': 2.6, 'cores_max': 22.3}, waiting
+18:27:38   python       max      2,631 req/s  p99    25.49 ms  cpu   98.7%     377.8 us/req  pg   53.2%  rss    76.6 MB  non-200 0  tw 182
+18:27:51 machine busy {'cores_mean': 2.1, 'cores_max': 18.0}, waiting
+18:28:16   java         warm    15,295 req/s  p99    24.62 ms  cpu   96.9%      63.8 us/req  pg  110.2%  rss   315.4 MB  non-200 0  tw 5172
+18:28:21 machine busy {'cores_mean': 2.2, 'cores_max': 17.3}, waiting
+18:28:42   java         max     21,465 req/s  p99     9.87 ms  cpu   96.6%      45.4 us/req  pg  149.6%  rss   310.0 MB  non-200 0  tw 10323
+18:28:42 done

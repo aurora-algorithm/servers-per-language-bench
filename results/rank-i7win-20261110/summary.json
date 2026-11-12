@@ -1,0 +1,120 @@
+{
+ "ranking": {
+  "go": {
+   "rounds": 5,
+   "rps": 26101.17,
+   "rps_min": 25697.89,
+   "rps_max": 26117.5,
+   "rps_plain": 25166.38,
+   "cpu_us_per_req": 37.13,
+   "p99_ms": 5.28,
+   "rss_mb": 25.3
+  },
+  "csharp": {
+   "rounds": 5,
+   "rps": 21920.07,
+   "rps_min": 21242.31,
+   "rps_max": 24044.91,
+   "rps_plain": 22856.36,
+   "cpu_us_per_req": 43.34,
+   "p99_ms": 7.61,
+   "rss_mb": 96.2
+  },
+  "java": {
+   "rounds": 5,
+   "rps": 21627.17,
+   "rps_min": 21423.73,
+   "rps_max": 21809.37,
+   "rps_plain": 21465.3,
+   "cpu_us_per_req": 44.68,
+   "p99_ms": 9.13,
+   "rss_mb": 316.6
+  },
+  "rust": {
+   "rounds": 5,
+   "rps": 18985.0,
+   "rps_min": 15986.05,
+   "rps_max": 19010.96,
+   "rps_plain": 19175.9,
+   "cpu_us_per_req": 50.58,
+   "p99_ms": 4.6,
+   "rss_mb": 12.5
+  },
+  "node": {
+   "rounds": 5,
+   "rps": 9791.63,
+   "rps_min": 9433.37,
+   "rps_max": 9926.73,
+   "rps_plain": 9740.21,
+   "cpu_us_per_req": 101.52,
+   "p99_ms": 9.24,
+   "rss_mb": 170.1
+  },
+  "python": {
+   "rounds": 5,
+   "rps": 2660.31,
+   "rps_min": 2585.47,
+   "rps_max": 2707.69,
+   "rps_plain": 2630.64,
+   "cpu_us_per_req": 372.85,
+   "p99_ms": 25.56,
+   "rss_mb": 76.3
+  },
+  "ruby": {
+   "rounds": 5,
+   "rps": 1395.38,
+   "rps_min": 1381.99,
+   "rps_max": 1440.82,
+   "rps_plain": 1399.95,
+   "cpu_us_per_req": 715.75,
+   "p99_ms": 93.88,
+   "rss_mb": 163.6
+  },
+  "php-tuned": {
+   "rounds": 5,
+   "rps": 344.52,
+   "rps_min": 340.58,
+   "rps_max": 348.8,
+   "rps_plain": 341.5,
+   "cpu_us_per_req": 2938.3,
+   "p99_ms": 221.8,
+   "rss_mb": 223.5
+  },
+  "php": {
+   "rounds": 5,
+   "rps": 146.5,
+   "rps_min": 144.44,
+   "rps_max": 148.5,
+   "rps_plain": 147.48,
+   "cpu_us_per_req": 4544.0,
+   "p99_ms": 643.79,
+   "rss_mb": 224.6
+  }
+ },
+ "health_floor": {
+  "go": {
+   "rps": 90916.56
+  },
+  "rust": {
+   "rps": 123749.34
+  },
+  "node": {
+   "rps": 55666.43
+  },
+  "python": {
+   "rps": 14127.85
+  },
+  "java": {
+   "rps": 47002.11
+  },
+  "csharp": {
+   "rps": 99536.46
+  },
+  "php": {
+   "rps": 412.56
+  },
+  "ruby": {
+   "rps": 1917.24
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+	"name": "servers-node",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"fastify": "^5.12.8",
+		"jsonwebtoken": "^9.0.3",
+		"pg": "^8.23.1"
+	}
+}

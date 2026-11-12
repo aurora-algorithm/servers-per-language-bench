@@ -1,0 +1,107 @@
+{
+  "versions": {
+    "go": "go version go1.27.3 windows/amd64",
+    "go_mods": {
+      "github.com/gin-gonic/gin": "v1.12.0",
+      "github.com/golang-jwt/jwt/v5": "v5.3.1",
+      "github.com/jackc/pgx/v5": "v5.12.0"
+    },
+    "rustc": "rustc 1.99.1 (58cf8f9c3 2026-10-13)\nbinary: rustc\ncommit-hash: 58cf8f9c35b355199727627d07ae34a4e2846d67\ncommit-date: 2026-10-13\nhost: x86_64-pc-windows-msvc\nrelease: 1.99.1\nLLVM version: 23.1.1",
+    "crates": {
+      "axum": "0.8.9",
+      "hyper": "1.12.0",
+      "jsonwebtoken": "9.3.1",
+      "serde_json": "1.0.154",
+      "sqlx": "0.8.6",
+      "tokio": "1.54.1"
+    },
+    "node": "v24.13.0",
+    "npm": {
+      "fastify": "5.12.8",
+      "jsonwebtoken": "9.0.3",
+      "pg": "8.23.1"
+    },
+    "python": "Python 3.14.10",
+    "pip": "agent-detector==2.0.0\nannotated-doc==0.0.6\nannotated-types==0.8.0\nanyio==4.16.0\nasyncpg==0.31.0\ncertifi==2026.10.23\nclick==8.5.1\ncolorama==0.4.6\ndetect-installer==0.2.1\ndnspython==2.9.2\nemail-validator==2.3.0\nfastapi==0.121.0\nfastapi-cli==0.0.32\nfastapi-cloud-cli==0.27.1\nfastar==0.12.0\nh11==0.16.0\nhttpcore==1.0.9\nhttptools==0.9.0\nhttpx==0.28.1\nidna==3.20\nJinja2==3.1.6\nmarkdown-it-py==4.3.0\nMarkupSafe==3.0.4\nmdurl==0.1.2\npydantic==2.14.3\npydantic_core==2.50.4\nPygments==2.21.0\nPyJWT==2.10.1\npython-dotenv==1.2.4\npython-multipart==0.0.33\nPyYAML==6.0.3\nrich==15.0.0\nrich-toolkit==0.20.6\nrignore==0.8.1\nsentry-sdk==2.74.0\nshellingham==1.5.4\nstarlette==0.49.3\ntyper==0.29.0\ntyping-inspection==0.4.5\ntyping_extensions==4.16.0\nurllib3==2.8.0\nuvicorn==0.54.0\nwatchfiles==1.3.0\nwebsockets==17.4",
+    "postgres": "postgres (PostgreSQL) 18.6",
+    "oha": "oha 1.16.0",
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "power_plan": "Power Scheme GUID: 381b4222-f694-41f0-9685-ff5bb260df2e  (Balanced)",
+    "java": "openjdk version \"25.0.5\" 2026-10-20 LTS\nOpenJDK Runtime Environment Temurin-25.0.5+8 (build 25.0.5+8-LTS)\nOpenJDK 64-Bit Server VM Temurin-25.0.5+8 (build 25.0.5+8-LTS, mixed mode, sharing)",
+    "dotnet": "Microsoft.AspNetCore.App 8.0.1 [C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App]\nMicrosoft.AspNetCore.App 10.0.14 [C:\\Program Files\\dotnet\\shared\\Microsoft.AspNetCore.App]\nMicrosoft.NETCore.App 6.0.33 [C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App]\nMicrosoft.NETCore.App 7.0.15 [C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App]\nMicrosoft.NETCore.App 8.0.1 [C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App]\nMicrosoft.NETCore.App 8.0.12 [C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App]\nMicrosoft.NETCore.App 10.0.14 [C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App]\nMicrosoft.WindowsDesktop.App 6.0.33 [C:\\Program Files\\dotnet\\shared\\Microsoft.WindowsDesktop.App]\nMicrosoft.WindowsDesktop.App 7.0.15 [C:\\Program Files\\dotnet\\shared\\Microsoft.WindowsDesktop.App]\nMicrosoft.WindowsDesktop.App 8.0.1 [C:\\Program Files\\dotnet\\shared\\Microsoft.WindowsDesktop.App]\nMicrosoft.WindowsDesktop.App 8.0.12 [C:\\Program Files\\dotnet\\shared\\Microsoft.WindowsDesktop.App]\nMicrosoft.WindowsDesktop.App 10.0.14 [C:\\Program Files\\dotnet\\shared\\Microsoft.WindowsDesktop.App]",
+    "php": "PHP 8.5.12 (cgi-fcgi) (built: Oct 26 2026 09:51:07) (NTS Visual C++ 2022 x64)\nCopyright (c) The PHP Group\nBuilt by The PHP Group\nZend Engine v4.5.12, Copyright (c) Zend Technologies\n    with Zend OPcache v8.5.12, Copyright (c), by Zend Technologies",
+    "nginx": "nginx version: nginx/1.30.6",
+    "ruby": "ruby 4.0.9 (2026-10-23 revision 3e93b23afc) +PRISM [x64-mingw-ucrt]",
+    "ruby_yjit": "not built",
+    "libs": {
+      "spring_boot": "4.1.2",
+      "jjwt": "0.13.0",
+      "java_jars": [
+        "HikariCP-7.0.2.jar",
+        "jackson-databind-2.21.7.jar",
+        "jackson-databind-3.1.7.jar",
+        "jjwt-impl-0.13.0.jar",
+        "postgresql-42.7.14.jar",
+        "spring-webmvc-7.0.10.jar",
+        "tomcat-embed-core-11.0.27.jar"
+      ],
+      "nuget": {
+        "Microsoft.IdentityModel.JsonWebTokens": "8.23.0",
+        "Npgsql": "10.0.3"
+      },
+      "composer": {
+        "firebase/php-jwt": "v7.2.1",
+        "laravel/framework": "v13.42.0",
+        "symfony/http-foundation": "v8.1.11"
+      },
+      "gems": {
+        "actionpack": "8.1.4.1",
+        "activerecord": "8.1.4.1",
+        "jwt": "3.3.0",
+        "pg": "1.7.0-x64-mingw-ucrt",
+        "puma": "8.0.2",
+        "rack": "3.2.8",
+        "rails": "8.1.4.1"
+      }
+    }
+  },
+  "rounds": 5,
+  "variants": [
+    "go",
+    "rust",
+    "node",
+    "python",
+    "java",
+    "csharp",
+    "php",
+    "ruby"
+  ],
+  "server_cpus": [
+    0
+  ],
+  "oha_cpus": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "pg_cpus": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "connections": 64,
+  "warm_s": 20,
+  "window_s": 15,
+  "url": "http://127.0.0.1:8136/customers/[1-9][0-9]{4}/orders",
+  "port": 8136,
+  "pg_port": 5536,
+  "gate": "mean < 5%, max < 15% over 5 s",
+  "started": "Tue Nov 10 16:37:22 2026"
+}

@@ -1,0 +1,54 @@
+{
+ "go": {
+  "cores_needed_by_round": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "cores_needed_plain": 1,
+  "cores_needed_median": 1,
+  "k1_flat_out_rps": 26565.71,
+  "k1_cpu_us_per_req": 35.2
+ },
+ "rust": {
+  "cores_needed_by_round": [
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "cores_needed_plain": 1,
+  "cores_needed_median": 1,
+  "k1_flat_out_rps": 19228.0,
+  "k1_cpu_us_per_req": 48.11
+ },
+ "node": {
+  "cores_needed_by_round": [
+   3,
+   3,
+   2,
+   2,
+   4
+  ],
+  "cores_needed_plain": 3,
+  "cores_needed_median": 3,
+  "k1_flat_out_rps": 9753.0,
+  "k1_cpu_us_per_req": 97.1
+ },
+ "python": {
+  "cores_needed_by_round": [
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "cores_needed_plain": 4,
+  "cores_needed_median": 4,
+  "k1_flat_out_rps": 2657.84,
+  "k1_cpu_us_per_req": 359.31
+ }
+}
